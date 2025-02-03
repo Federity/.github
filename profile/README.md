@@ -17,12 +17,13 @@ Federity is explicitly designed for version control of ML models. Here's how it 
 - TensorFlow
 
 # Models Supported
-- **Deep Learning Models**:
+- **Deep Learning Models** including:
   - CNNs (e.g. ResNet, MobileNet, EfficientNet)
   - LSTMs/GRUs
   - Transformers (e.g. DistilBERT, GPT)
   - Autoencoders & GANs
   - GNNs
+Support for further models is under progress. Stay Tuned for updates!
 
 ## Why Federity
 Federity is a blockchain-based platform designed for collaborative machine learning on highly sensitive data, like hospital patient records. It allows users to train machine learning models using their private data without sharing it with anyone. Instead, the server sends a lightweight version of the machine learning model to the user's device, where training occurs locally. Only the model updates—no actual data—are sent back to a central server for aggregation. Users can choose whether to merge or revert these updates, similar to version control on GitHub. 
