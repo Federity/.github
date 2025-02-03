@@ -15,9 +15,9 @@ Federity is explicitly designed for version control of ML models. Here's how it 
 
 # Models Supported
 - **Deep Learning Models**
-  - CNNs (ResNet, MobileNet, EfficientNet) → Image-based federated learning
+  - CNNs (e.g. ResNet, MobileNet, EfficientNet) → Image-based federated learning
   - LSTMs/GRUs → IoT & time-series tasks
-  - Transformers (DistilBERT, GPT) → NLP models
+  - Transformers (e.g. DistilBERT, GPT) → NLP models
   - Autoencoders & GANs → Privacy-preserving synthetic data generation
   - GNNs → Decentralized applications
 
