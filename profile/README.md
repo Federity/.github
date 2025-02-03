@@ -15,9 +15,9 @@ Federity is explicitly designed for version control of ML models. Here's how it 
 
 # Models Supported
 - **Deep Learning Models**
-Neural Networks (including DNN, CNN, RNN, LSTMs, Transformers)
-Frameworks: PyTorch, TensorFlow
-Examples: Image classification (ResNet, EfficientNet), NLP tasks (GPT, BERT), Time-series forecasting (LSTMs, Transformers)
+  - Neural Networks (including DNN, CNN, RNN, LSTMs, Transformers)
+  - Frameworks: PyTorch, TensorFlow
+  - Examples: Image classification (ResNet, EfficientNet), NLP tasks (GPT, BERT), Time-series forecasting (LSTMs, Transformers)
 
 
 ## Why Federity
