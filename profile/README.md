@@ -23,6 +23,7 @@ Federity is explicitly designed for version control of ML models. Here's how it 
   - Transformers (e.g. DistilBERT, GPT)
   - Autoencoders & GANs
   - GNNs
+  
 Support for further models is under progress. Stay Tuned for updates!
 
 ## Why Federity
