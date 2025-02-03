@@ -41,4 +41,5 @@ Here's how to get started:
 - The Zero Knowledge Proof is validated to ensure that the user has indeed trained the model. Then you can review these commits and choose to merge or reject them.
 - Merged commits are aggregated and applied to the model. Users can then pull the latest commit and train it further.
 - And the cycle continues.
+
 Happy collaborating!
