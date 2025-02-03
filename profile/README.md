@@ -27,14 +27,18 @@ Federity is explicitly designed for version control of ML models. Here's how it 
 Support for further models is in progress. Stay Tuned for updates!
 
 ## Why Federity
-Federity is a blockchain-based platform designed for collaborative machine learning on highly sensitive data, like hospital patient records. It allows users to train machine learning models using their private data without sharing it with anyone. Instead, the server sends a lightweight version of the machine learning model to the user's device, where training occurs locally. Only the model updates—no actual data—are sent back to a central server for aggregation. Users can choose whether to merge or revert these updates, similar to version control on GitHub. 
+Federity is blockchain-based and is designed for collaborative machine learning on highly sensitive data, like hospital patient records. It allows users to train machine learning models using their private data without sharing it with anyone. Instead, the server sends a lightweight version of the machine learning model to the user's device, where training occurs locally. Only the model updates—no actual data—are sent back to a central server for aggregation. Users can choose whether to merge or revert these updates, similar to version control on GitHub. 
 
 Because it is built on the Solana blockchain, every user is identified by his Solana wallet, ensuring transparency and complete control over his models. Federity functions like a community-driven AI, but with the blockchain's privacy protections, keeping personal data safe from external access.
 
 ## Get Started
 Here's how to get started: 
-- First, create a new repository and upload your machine learning model, whether it's built on Pytorch, TensorFlow, or any other framework! 
-- Next, invite your contributors to join the party, and they can train the model right alongside you. 
-- As they work their magic, they'll submit their updates as commits for you to review and integrate. 
-- Or you can join someone else's repository and help evolve the ML models using your local training. 
+- First, create a new repository
+- Push an untrained model to this repository.
+- Next, invite your contributors to join the party, just as you do in GitHub.
+- Contributors pull the model onto their system and train it locally on their individual data. A Zero Knowledge Proof is created for the trained model.
+- After local training, users push their model updates (changed parameters) to the server
+- The Zero Knowledge Proof is validated to ensure that the user has indeed trained the model. Then you can review these commits and choose to merge or reject them.
+- Merged commits are aggregated and applied to the model. Users can then pull the latest commit and train it further.
+- And the cycle continues.
 Happy collaborating!
