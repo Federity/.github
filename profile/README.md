@@ -1,5 +1,5 @@
 # Federity Overview 
-Federity is a repository manager for Collaborative Training of Machine Learning models, with version control and verifiable proof of every commit as an NFT. It is like GitHub but for machine learning, designed for privacy and collaboration. People can create an ML model and train it together on their individual private datasets. Models are trained locally on your device, and only the updates after training (not the raw data) are shared globally and aggregated. No data ever leaves your device. Each training round is treated as a "commit," allowing you to version, undo, and track progress. You can merge updates from different datasets, making collaboration seamless while also making sure that your personal data is never shared with anyone.
+Federity is a repository manager for Collaborative Training of Machine Learning models, with version control and verifiable proof of every commit as an NFT. It is like GitHub but for ML models, designed for privacy and collaboration. People can create an ML model and train it together on their individual private datasets. Models are trained locally on your device, and only the updates after training (not the raw data) are shared globally and aggregated. No data ever leaves your device. Each training round is treated as a "commit," allowing you to version, undo, and track progress. You can merge updates from different datasets, making collaboration seamless while also making sure that your personal data is never shared with anyone.
 
 Federity also tokenizes models as NFTs, so you can own, trade, or monetize them. Plus, it uses zero-knowledge proofs to securely verify all updates and merges without exposing any underlying data the model was trained on. It is the ultimate home for machine learning models to evolve, improve, and thrive—together to create the AIs to solve the world's most complex problems!
 
@@ -11,6 +11,13 @@ Federity is explicitly designed for version control of ML models. Here's how it 
 - **Branch Merging**: Federity supports merging commits from different branches, enabling seamless integration of training results from various datasets.
 - **Tokenized Models**: Models are turned into NFTs, providing a unique, tradable, and provable ownership mechanism.
 - **Zero-Knowledge Proofs**: Federity uses zero-knowledge proofs to validate updates and merges, ensuring that all changes are legitimate without revealing the underlying data.
+
+
+# Models Supported
+- **Deep Learning Models**
+Neural Networks (including DNN, CNN, RNN, LSTMs, Transformers)
+Frameworks: PyTorch, TensorFlow
+Examples: Image classification (ResNet, EfficientNet), NLP tasks (GPT, BERT), Time-series forecasting (LSTMs, Transformers)
 
 
 ## Why Federity
