@@ -43,3 +43,16 @@ Here's how to get started:
 - And the cycle continues.
 
 Happy collaborating!
+
+
+# Additional Info
+## Zero Knowledge Proof in Federity
+A Zero-Knowledge Proof (ZKP) lets a participant prove that they’ve trained a machine learning model on their private data without actually revealing the data. This means updates to the global model can be verified as legit while keeping everything confidential.
+
+Here’s how it works in Federity: When a user trains a model using its own dataset, it creates a ZKP that proves:
+
+- The update was done correctly and follows the model’s rules.
+- The training process was fair and valid.
+- No one tampered with the model or injected anything suspicious.
+
+This way, everyone in the network can trust the contributions without ever seeing the original data or model details, keeping things both private and transparent. ;)
