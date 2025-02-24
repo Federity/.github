@@ -3,7 +3,7 @@ Train machine learning models together without ever sharing your private data.
 
 When you train an AI, it usually needs access to data. But what if your data is private—like hospital patient records, financial transactions, or personal AI assistants? With Federity, your data stays on your device.
 
-Instead of sending your data to a server, the model comes to you. It learns from your data privately and only sends back small updates (like improved settings). These updates are combined with others to improve the global AI model without ever exposing anyone’s data.
+Instead of sending your data to a server, Federity sends the model to you. It learns from your data privately and only sends back small updates (like improved settings). These updates are combined with others to improve the global AI model without ever exposing anyone’s data.
 
 Every contribution is verifiable and stored as an NFT, proving your work and ensuring that only authorized people can access model details.
 
