@@ -7,7 +7,7 @@ Instead of sending your data to a server, Federity sends the model to you. It le
 
 Every contribution is verifiable and stored as an NFT, proving your work and ensuring that only authorized people can access model details.
 
-🔒 Why Federity?
+## 🔒 Why Federity?
 Federity is different from other collaborative ML platforms like Hugging Face because it is built for privacy. No one—not even Federity—can extract data from your models.
 
 - ✅ Your Data Stays Private – The model trains on your device, and only updates (not your data) are shared.
