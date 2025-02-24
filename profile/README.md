@@ -34,4 +34,17 @@ Federity is different from other collaborative ML platforms like Hugging Face be
 - Push updates (not data!)
 - Verify & merge contributions
 
+## 🔐 Zero-Knowledge Proofs – Training Verified, Data Hidden 🛡️  
+
+A **Zero-Knowledge Proof (ZKP)** lets a contributor prove that they’ve trained a machine learning model on their private data **without actually revealing the data.**  
+
+✅ Your updates are **verified** as legit, but no one can see your data.  
+✅ Prevents **fraud**—ensures real contributions without revealing secrets.  
+✅ **Privacy first** – Keeps all training data hidden from others.  
+
+This ensures **Federity remains 100% private while still allowing global collaboration.**  
+
+
 ##🔹 Train smarter. Collaborate securely. Own your work. Federity makes machine learning truly private. 🚀
+
+
