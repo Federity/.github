@@ -44,7 +44,6 @@ A **Zero-Knowledge Proof (ZKP)** lets a contributor prove that they’ve trained
 
 This ensures **Federity remains 100% private while still allowing global collaboration.**  
 
-
-##🔹 Train smarter. Collaborate securely. Own your work. Federity makes machine learning truly private. 🚀
+## 🔹 Train smarter. Collaborate securely. Own your work. Federity makes machine learning truly private. 🚀
 
 
